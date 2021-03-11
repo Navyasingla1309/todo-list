@@ -1,8 +1,12 @@
 #container{
-	width:36%;
 	margin:10% auto;
 	background-color: #f0f0f0;
 	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+@media(min-width: 700px){
+	#container{
+		width:700px;
+	}
 }
 .completed{
 	color: gray;
